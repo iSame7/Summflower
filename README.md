@@ -51,10 +51,17 @@ An example of creating and displaying a `SummflowerViewController` instance:
 - Implement the optional delegate method to be notified when a new item is selected
 
          // Called before the user changes the selection. Return a new indexPath, or nil, to change the proposed selection.
-        `optional func floraView(tableView: AnyObject, willSelectItemAtIndexPath indexPath: NSIndexPath) -> NSIndexPath?`
+        optional func floraView(tableView: AnyObject, willSelectItemAtIndexPath indexPath: NSIndexPath) -> NSIndexPath?
+        
          // Called after the user changes the selection.
          optional func floraView(tableView: AnyObject, didSelectItemAtIndexPath indexPath: NSIndexPath)
-        
+         
+         //Called after the animations have completed
+         optional func floraView(tableView: AnyObject, didFinishExpandingAtPoint point: CGPoint)
+         optional func floraView(tableView: AnyObject, didFinishCollapsingAtPoint point: CGPoint)
+            
+         optional func floraView(tableView: AnyObject, didFinishExpandingSegment segment: SummflowerSegment)
+         optional func floraView(tableView: AnyObject, didFinishCollapsingSegment segment: SummflowerSegment)
         
   
 
