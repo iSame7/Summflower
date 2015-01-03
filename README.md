@@ -1,18 +1,15 @@
-Panoramic
+Summflower
 =========
 
-**Swift implementation of the photo tilt gesture/UX found in Facebook's Paper app.**
+**Summflower is a swift implementation to the sexiest sharing icon based on [Summly] (http://www.summly.com/index.html).**
 
-<img src="screenshot2.png" alt="Screenshot" width="70%"/>
-<img src="screenshot1.png" alt="Screenshot" width="70%"/>
-<img src="screenshot3.png" alt="Screenshot" width="50%"/>
+<img src="screenshot.png" alt="Screenshot"/>
 
 
 Requirements
 ----------
-* iOS 8.0 or higher
+* iOS 7.0 or higher
 * ARC
-* Core Motion
 
 ## License
 Panorama is released under the MIT license. See
