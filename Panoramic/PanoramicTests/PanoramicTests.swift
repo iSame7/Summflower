@@ -1,15 +1,15 @@
 //
-//  TestSummflowerTests.swift
-//  TestSummflowerTests
+//  PanoramicTests.swift
+//  PanoramicTests
 //
-//  Created by Sameh Mabrouk on 1/3/15.
-//  Copyright (c) 2015 SMApps. All rights reserved.
+//  Created by Sameh Mabrouk on 12/16/14.
+//  Copyright (c) 2014 SMApps. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class TestSummflowerTests: XCTestCase {
+class PanoramicTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

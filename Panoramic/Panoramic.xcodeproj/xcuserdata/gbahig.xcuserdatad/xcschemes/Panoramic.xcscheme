@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0610"
+   LastUpgradeVersion = "0620"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2903CA121A5851780090C615"
-               BuildableName = "TestSummflower.app"
-               BlueprintName = "TestSummflower"
-               ReferencedContainer = "container:TestSummflower.xcodeproj">
+               BlueprintIdentifier = "29C36C481A409688006A83A2"
+               BuildableName = "Panoramic.app"
+               BlueprintName = "Panoramic"
+               ReferencedContainer = "container:Panoramic.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2903CA271A5851790090C615"
-               BuildableName = "TestSummflowerTests.xctest"
-               BlueprintName = "TestSummflowerTests"
-               ReferencedContainer = "container:TestSummflower.xcodeproj">
+               BlueprintIdentifier = "29C36C5D1A409688006A83A2"
+               BuildableName = "PanoramicTests.xctest"
+               BlueprintName = "PanoramicTests"
+               ReferencedContainer = "container:Panoramic.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2903CA271A5851790090C615"
-               BuildableName = "TestSummflowerTests.xctest"
-               BlueprintName = "TestSummflowerTests"
-               ReferencedContainer = "container:TestSummflower.xcodeproj">
+               BlueprintIdentifier = "29C36C5D1A409688006A83A2"
+               BuildableName = "PanoramicTests.xctest"
+               BlueprintName = "PanoramicTests"
+               ReferencedContainer = "container:Panoramic.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2903CA121A5851780090C615"
-            BuildableName = "TestSummflower.app"
-            BlueprintName = "TestSummflower"
-            ReferencedContainer = "container:TestSummflower.xcodeproj">
+            BlueprintIdentifier = "29C36C481A409688006A83A2"
+            BuildableName = "Panoramic.app"
+            BlueprintName = "Panoramic"
+            ReferencedContainer = "container:Panoramic.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -72,13 +72,14 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2903CA121A5851780090C615"
-            BuildableName = "TestSummflower.app"
-            BlueprintName = "TestSummflower"
-            ReferencedContainer = "container:TestSummflower.xcodeproj">
+            BlueprintIdentifier = "29C36C481A409688006A83A2"
+            BuildableName = "Panoramic.app"
+            BlueprintName = "Panoramic"
+            ReferencedContainer = "container:Panoramic.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -90,13 +91,14 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2903CA121A5851780090C615"
-            BuildableName = "TestSummflower.app"
-            BlueprintName = "TestSummflower"
-            ReferencedContainer = "container:TestSummflower.xcodeproj">
+            BlueprintIdentifier = "29C36C481A409688006A83A2"
+            BuildableName = "Panoramic.app"
+            BlueprintName = "Panoramic"
+            ReferencedContainer = "container:Panoramic.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

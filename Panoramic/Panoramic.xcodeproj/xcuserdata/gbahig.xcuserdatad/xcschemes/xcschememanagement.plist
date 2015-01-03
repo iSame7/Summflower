@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>TestSummflower.xcscheme</key>
+		<key>Panoramic.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2903CA121A5851780090C615</key>
+		<key>29C36C481A409688006A83A2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2903CA271A5851790090C615</key>
+		<key>29C36C5D1A409688006A83A2</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  TestSummflower
+//  Panoramic
 //
-//  Created by Sameh Mabrouk on 1/3/15.
-//  Copyright (c) 2015 SMApps. All rights reserved.
+//  Created by Sameh Mabrouk on 12/16/14.
+//  Copyright (c) 2014 SMApps. All rights reserved.
 //
 
 import UIKit
@@ -15,7 +15,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+     var panoramaVC : PanoramaViewController? = PanoramaViewController()
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        if let window = window {
+            window.backgroundColor = UIColor.orangeColor()
+            window.makeKeyAndVisible()
+            window.rootViewController = panoramaVC
+        }
         return true
     }
 
