@@ -17,11 +17,10 @@
 		2903C9F61A58491D0090C615 /* SummflowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2903C9F31A58491D0090C615 /* SummflowerView.swift */; };
 		2903C9F81A58492A0090C615 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2903C9F71A58492A0090C615 /* Main.storyboard */; };
 		2903CA001A58493A0090C615 /* Summflower.png in Resources */ = {isa = PBXBuildFile; fileRef = 2903C9F91A58493A0090C615 /* Summflower.png */; };
-		2903CA011A58493A0090C615 /* petal-facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2903C9FA1A58493A0090C615 /* petal-facebook@2x.png */; };
-		2903CA021A58493A0090C615 /* petal-email@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2903C9FB1A58493A0090C615 /* petal-email@2x.png */; };
-		2903CA031A58493A0090C615 /* petal-save@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2903C9FC1A58493A0090C615 /* petal-save@2x.png */; };
-		2903CA041A58493A0090C615 /* petal-twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2903C9FD1A58493A0090C615 /* petal-twitter@2x.png */; };
-		2903CA051A58493A0090C615 /* petal-unsave@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2903C9FE1A58493A0090C615 /* petal-unsave@2x.png */; };
+		2903CA011A58493A0090C615 /* segment-facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2903C9FA1A58493A0090C615 /* segment-facebook@2x.png */; };
+		2903CA021A58493A0090C615 /* segment-email@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2903C9FB1A58493A0090C615 /* segment-email@2x.png */; };
+		2903CA031A58493A0090C615 /* segment-save@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2903C9FC1A58493A0090C615 /* segment-save@2x.png */; };
+		2903CA041A58493A0090C615 /* segment-twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2903C9FD1A58493A0090C615 /* segment-twitter@2x.png */; };
 		2903CA061A58493A0090C615 /* SegmentData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2903C9FF1A58493A0090C615 /* SegmentData.plist */; };
 		2903CA081A5849420090C615 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2903CA071A5849420090C615 /* Social.framework */; };
 /* End PBXBuildFile section */
@@ -51,11 +50,10 @@
 		2903C9F31A58491D0090C615 /* SummflowerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SummflowerView.swift; path = Summflower/SummflowerView.swift; sourceTree = "<group>"; };
 		2903C9F71A58492A0090C615 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		2903C9F91A58493A0090C615 /* Summflower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Summflower.png; sourceTree = "<group>"; };
-		2903C9FA1A58493A0090C615 /* petal-facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "petal-facebook@2x.png"; sourceTree = "<group>"; };
-		2903C9FB1A58493A0090C615 /* petal-email@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "petal-email@2x.png"; sourceTree = "<group>"; };
-		2903C9FC1A58493A0090C615 /* petal-save@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "petal-save@2x.png"; sourceTree = "<group>"; };
-		2903C9FD1A58493A0090C615 /* petal-twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "petal-twitter@2x.png"; sourceTree = "<group>"; };
-		2903C9FE1A58493A0090C615 /* petal-unsave@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "petal-unsave@2x.png"; sourceTree = "<group>"; };
+		2903C9FA1A58493A0090C615 /* segment-facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segment-facebook@2x.png"; sourceTree = "<group>"; };
+		2903C9FB1A58493A0090C615 /* segment-email@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segment-email@2x.png"; sourceTree = "<group>"; };
+		2903C9FC1A58493A0090C615 /* segment-save@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segment-save@2x.png"; sourceTree = "<group>"; };
+		2903C9FD1A58493A0090C615 /* segment-twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segment-twitter@2x.png"; sourceTree = "<group>"; };
 		2903C9FF1A58493A0090C615 /* SegmentData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SegmentData.plist; sourceTree = "<group>"; };
 		2903CA071A5849420090C615 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -116,11 +114,10 @@
 			isa = PBXGroup;
 			children = (
 				2903C9F91A58493A0090C615 /* Summflower.png */,
-				2903C9FA1A58493A0090C615 /* petal-facebook@2x.png */,
-				2903C9FB1A58493A0090C615 /* petal-email@2x.png */,
-				2903C9FC1A58493A0090C615 /* petal-save@2x.png */,
-				2903C9FD1A58493A0090C615 /* petal-twitter@2x.png */,
-				2903C9FE1A58493A0090C615 /* petal-unsave@2x.png */,
+				2903C9FA1A58493A0090C615 /* segment-facebook@2x.png */,
+				2903C9FB1A58493A0090C615 /* segment-email@2x.png */,
+				2903C9FC1A58493A0090C615 /* segment-save@2x.png */,
+				2903C9FD1A58493A0090C615 /* segment-twitter@2x.png */,
 				2903C9FF1A58493A0090C615 /* SegmentData.plist */,
 				2903C9D01A5848F00090C615 /* Info.plist */,
 			);
@@ -234,16 +231,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2903CA031A58493A0090C615 /* petal-save@2x.png in Resources */,
-				2903CA021A58493A0090C615 /* petal-email@2x.png in Resources */,
+				2903CA031A58493A0090C615 /* segment-save@2x.png in Resources */,
+				2903CA021A58493A0090C615 /* segment-email@2x.png in Resources */,
 				2903C9F81A58492A0090C615 /* Main.storyboard in Resources */,
-				2903CA011A58493A0090C615 /* petal-facebook@2x.png in Resources */,
+				2903CA011A58493A0090C615 /* segment-facebook@2x.png in Resources */,
 				2903CA061A58493A0090C615 /* SegmentData.plist in Resources */,
-				2903CA051A58493A0090C615 /* petal-unsave@2x.png in Resources */,
 				2903C9DC1A5848F00090C615 /* LaunchScreen.xib in Resources */,
 				2903CA001A58493A0090C615 /* Summflower.png in Resources */,
 				2903C9D91A5848F00090C615 /* Images.xcassets in Resources */,
-				2903CA041A58493A0090C615 /* petal-twitter@2x.png in Resources */,
+				2903CA041A58493A0090C615 /* segment-twitter@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +445,7 @@
 				2903C9ED1A5848F00090C615 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2903C9EE1A5848F00090C615 /* Build configuration list for PBXNativeTarget "SummflowerTests" */ = {
 			isa = XCConfigurationList;
@@ -457,6 +454,7 @@
 				2903C9F01A5848F00090C615 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

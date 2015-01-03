@@ -3,28 +3,20 @@
 <plist version="1.0">
 <array>
 	<dict>
-		<key>label</key>
-		<string>Not Implemented Yet</string>
 		<key>image</key>
-		<string>petal-twitter.png</string>
+		<string>segment-twitter.png</string>
 	</dict>
 	<dict>
-		<key>label</key>
-		<string>Not Implemented Yet</string>
 		<key>image</key>
-		<string>petal-save.png</string>
+		<string>segment-save.png</string>
 	</dict>
 	<dict>
-		<key>label</key>
-		<string>Not Implemented Yet</string>
 		<key>image</key>
-		<string>petal-email.png</string>
+		<string>segment-email.png</string>
 	</dict>
 	<dict>
-		<key>label</key>
-		<string>Not Implemented Yet</string>
 		<key>image</key>
-		<string>petal-facebook.png</string>
+		<string>segment-facebook.png</string>
 	</dict>
 </array>
 </plist>
