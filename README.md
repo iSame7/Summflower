@@ -95,7 +95,7 @@ Requirements
 * ARC
 
 ## License
-Panorama is released under the MIT license. See
+Summflower is released under the MIT license. See
 [LICENSE](https://github.com/iSame7/Summflower/blob/master/LICENSE.md).
 
 Contact
