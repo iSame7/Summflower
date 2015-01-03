@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2903C9D21A5848F00090C615 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2903C9D11A5848F00090C615 /* AppDelegate.swift */; };
+		2903C9D41A5848F00090C615 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2903C9D31A5848F00090C615 /* ViewController.swift */; };
+		2903C9D91A5848F00090C615 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2903C9D81A5848F00090C615 /* Images.xcassets */; };
+		2903C9DC1A5848F00090C615 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2903C9DA1A5848F00090C615 /* LaunchScreen.xib */; };
+		2903C9E81A5848F00090C615 /* SummflowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2903C9E71A5848F00090C615 /* SummflowerTests.swift */; };
+		2903C9F41A58491D0090C615 /* SummflowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2903C9F11A58491D0090C615 /* SummflowerViewController.swift */; };
+		2903C9F51A58491D0090C615 /* SummflowerSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2903C9F21A58491D0090C615 /* SummflowerSegment.swift */; };
+		2903C9F61A58491D0090C615 /* SummflowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2903C9F31A58491D0090C615 /* SummflowerView.swift */; };
+		2903C9F81A58492A0090C615 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2903C9F71A58492A0090C615 /* Main.storyboard */; };
+		2903CA001A58493A0090C615 /* Summflower.png in Resources */ = {isa = PBXBuildFile; fileRef = 2903C9F91A58493A0090C615 /* Summflower.png */; };
+		2903CA011A58493A0090C615 /* petal-facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2903C9FA1A58493A0090C615 /* petal-facebook@2x.png */; };
+		2903CA021A58493A0090C615 /* petal-email@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2903C9FB1A58493A0090C615 /* petal-email@2x.png */; };
+		2903CA031A58493A0090C615 /* petal-save@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2903C9FC1A58493A0090C615 /* petal-save@2x.png */; };
+		2903CA041A58493A0090C615 /* petal-twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2903C9FD1A58493A0090C615 /* petal-twitter@2x.png */; };
+		2903CA051A58493A0090C615 /* petal-unsave@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2903C9FE1A58493A0090C615 /* petal-unsave@2x.png */; };
+		2903CA061A58493A0090C615 /* SegmentData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2903C9FF1A58493A0090C615 /* SegmentData.plist */; };
+		2903CA081A5849420090C615 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2903CA071A5849420090C615 /* Social.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2903C9E21A5848F00090C615 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2903C9C41A5848F00090C615 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2903C9CB1A5848F00090C615;
+			remoteInfo = Summflower;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2903C9CC1A5848F00090C615 /* Summflower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Summflower.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2903C9D01A5848F00090C615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2903C9D11A5848F00090C615 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2903C9D31A5848F00090C615 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2903C9D81A5848F00090C615 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2903C9DB1A5848F00090C615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2903C9E11A5848F00090C615 /* SummflowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummflowerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2903C9E61A5848F00090C615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2903C9E71A5848F00090C615 /* SummflowerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummflowerTests.swift; sourceTree = "<group>"; };
+		2903C9F11A58491D0090C615 /* SummflowerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SummflowerViewController.swift; path = Summflower/SummflowerViewController.swift; sourceTree = "<group>"; };
+		2903C9F21A58491D0090C615 /* SummflowerSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SummflowerSegment.swift; path = Summflower/SummflowerSegment.swift; sourceTree = "<group>"; };
+		2903C9F31A58491D0090C615 /* SummflowerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SummflowerView.swift; path = Summflower/SummflowerView.swift; sourceTree = "<group>"; };
+		2903C9F71A58492A0090C615 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2903C9F91A58493A0090C615 /* Summflower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Summflower.png; sourceTree = "<group>"; };
+		2903C9FA1A58493A0090C615 /* petal-facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "petal-facebook@2x.png"; sourceTree = "<group>"; };
+		2903C9FB1A58493A0090C615 /* petal-email@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "petal-email@2x.png"; sourceTree = "<group>"; };
+		2903C9FC1A58493A0090C615 /* petal-save@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "petal-save@2x.png"; sourceTree = "<group>"; };
+		2903C9FD1A58493A0090C615 /* petal-twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "petal-twitter@2x.png"; sourceTree = "<group>"; };
+		2903C9FE1A58493A0090C615 /* petal-unsave@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "petal-unsave@2x.png"; sourceTree = "<group>"; };
+		2903C9FF1A58493A0090C615 /* SegmentData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SegmentData.plist; sourceTree = "<group>"; };
+		2903CA071A5849420090C615 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2903C9C91A5848F00090C615 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2903CA081A5849420090C615 /* Social.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2903C9DE1A5848F00090C615 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2903C9C31A5848F00090C615 = {
+			isa = PBXGroup;
+			children = (
+				2903CA071A5849420090C615 /* Social.framework */,
+				2903CA091A5849D70090C615 /* SummflowerControl */,
+				2903C9CE1A5848F00090C615 /* Summflower */,
+				2903C9E41A5848F00090C615 /* SummflowerTests */,
+				2903C9CD1A5848F00090C615 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2903C9CD1A5848F00090C615 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2903C9CC1A5848F00090C615 /* Summflower.app */,
+				2903C9E11A5848F00090C615 /* SummflowerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2903C9CE1A5848F00090C615 /* Summflower */ = {
+			isa = PBXGroup;
+			children = (
+				2903C9D11A5848F00090C615 /* AppDelegate.swift */,
+				2903C9D31A5848F00090C615 /* ViewController.swift */,
+				2903C9F71A58492A0090C615 /* Main.storyboard */,
+				2903C9D81A5848F00090C615 /* Images.xcassets */,
+				2903C9DA1A5848F00090C615 /* LaunchScreen.xib */,
+				2903C9CF1A5848F00090C615 /* Supporting Files */,
+			);
+			path = Summflower;
+			sourceTree = "<group>";
+		};
+		2903C9CF1A5848F00090C615 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2903C9F91A58493A0090C615 /* Summflower.png */,
+				2903C9FA1A58493A0090C615 /* petal-facebook@2x.png */,
+				2903C9FB1A58493A0090C615 /* petal-email@2x.png */,
+				2903C9FC1A58493A0090C615 /* petal-save@2x.png */,
+				2903C9FD1A58493A0090C615 /* petal-twitter@2x.png */,
+				2903C9FE1A58493A0090C615 /* petal-unsave@2x.png */,
+				2903C9FF1A58493A0090C615 /* SegmentData.plist */,
+				2903C9D01A5848F00090C615 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2903C9E41A5848F00090C615 /* SummflowerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2903C9E71A5848F00090C615 /* SummflowerTests.swift */,
+				2903C9E51A5848F00090C615 /* Supporting Files */,
+			);
+			path = SummflowerTests;
+			sourceTree = "<group>";
+		};
+		2903C9E51A5848F00090C615 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2903C9E61A5848F00090C615 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2903CA091A5849D70090C615 /* SummflowerControl */ = {
+			isa = PBXGroup;
+			children = (
+				2903C9F11A58491D0090C615 /* SummflowerViewController.swift */,
+				2903C9F21A58491D0090C615 /* SummflowerSegment.swift */,
+				2903C9F31A58491D0090C615 /* SummflowerView.swift */,
+			);
+			name = SummflowerControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2903C9CB1A5848F00090C615 /* Summflower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2903C9EB1A5848F00090C615 /* Build configuration list for PBXNativeTarget "Summflower" */;
+			buildPhases = (
+				2903C9C81A5848F00090C615 /* Sources */,
+				2903C9C91A5848F00090C615 /* Frameworks */,
+				2903C9CA1A5848F00090C615 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Summflower;
+			productName = Summflower;
+			productReference = 2903C9CC1A5848F00090C615 /* Summflower.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2903C9E01A5848F00090C615 /* SummflowerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2903C9EE1A5848F00090C615 /* Build configuration list for PBXNativeTarget "SummflowerTests" */;
+			buildPhases = (
+				2903C9DD1A5848F00090C615 /* Sources */,
+				2903C9DE1A5848F00090C615 /* Frameworks */,
+				2903C9DF1A5848F00090C615 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2903C9E31A5848F00090C615 /* PBXTargetDependency */,
+			);
+			name = SummflowerTests;
+			productName = SummflowerTests;
+			productReference = 2903C9E11A5848F00090C615 /* SummflowerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2903C9C41A5848F00090C615 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = SMApps;
+				TargetAttributes = {
+					2903C9CB1A5848F00090C615 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					2903C9E01A5848F00090C615 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 2903C9CB1A5848F00090C615;
+					};
+				};
+			};
+			buildConfigurationList = 2903C9C71A5848F00090C615 /* Build configuration list for PBXProject "Summflower" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2903C9C31A5848F00090C615;
+			productRefGroup = 2903C9CD1A5848F00090C615 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2903C9CB1A5848F00090C615 /* Summflower */,
+				2903C9E01A5848F00090C615 /* SummflowerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2903C9CA1A5848F00090C615 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2903CA031A58493A0090C615 /* petal-save@2x.png in Resources */,
+				2903CA021A58493A0090C615 /* petal-email@2x.png in Resources */,
+				2903C9F81A58492A0090C615 /* Main.storyboard in Resources */,
+				2903CA011A58493A0090C615 /* petal-facebook@2x.png in Resources */,
+				2903CA061A58493A0090C615 /* SegmentData.plist in Resources */,
+				2903CA051A58493A0090C615 /* petal-unsave@2x.png in Resources */,
+				2903C9DC1A5848F00090C615 /* LaunchScreen.xib in Resources */,
+				2903CA001A58493A0090C615 /* Summflower.png in Resources */,
+				2903C9D91A5848F00090C615 /* Images.xcassets in Resources */,
+				2903CA041A58493A0090C615 /* petal-twitter@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2903C9DF1A5848F00090C615 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2903C9C81A5848F00090C615 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2903C9F61A58491D0090C615 /* SummflowerView.swift in Sources */,
+				2903C9F41A58491D0090C615 /* SummflowerViewController.swift in Sources */,
+				2903C9D41A5848F00090C615 /* ViewController.swift in Sources */,
+				2903C9F51A58491D0090C615 /* SummflowerSegment.swift in Sources */,
+				2903C9D21A5848F00090C615 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2903C9DD1A5848F00090C615 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2903C9E81A5848F00090C615 /* SummflowerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2903C9E31A5848F00090C615 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2903C9CB1A5848F00090C615 /* Summflower */;
+			targetProxy = 2903C9E21A5848F00090C615 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2903C9DA1A5848F00090C615 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2903C9DB1A5848F00090C615 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2903C9E91A5848F00090C615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2903C9EA1A5848F00090C615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2903C9EC1A5848F00090C615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Summflower/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2903C9ED1A5848F00090C615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Summflower/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2903C9EF1A5848F00090C615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SummflowerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Summflower.app/Summflower";
+			};
+			name = Debug;
+		};
+		2903C9F01A5848F00090C615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SummflowerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Summflower.app/Summflower";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2903C9C71A5848F00090C615 /* Build configuration list for PBXProject "Summflower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2903C9E91A5848F00090C615 /* Debug */,
+				2903C9EA1A5848F00090C615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2903C9EB1A5848F00090C615 /* Build configuration list for PBXNativeTarget "Summflower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2903C9EC1A5848F00090C615 /* Debug */,
+				2903C9ED1A5848F00090C615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2903C9EE1A5848F00090C615 /* Build configuration list for PBXNativeTarget "SummflowerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2903C9EF1A5848F00090C615 /* Debug */,
+				2903C9F01A5848F00090C615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2903C9C41A5848F00090C615 /* Project object */;
+}
