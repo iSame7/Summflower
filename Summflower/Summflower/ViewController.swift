@@ -39,7 +39,7 @@ class ViewController: UIViewController,SummflowerViewDataSource,SummflowerViewDe
         summflowerControl = SummflowerViewController(frame: CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height))
         summflowerControl.setDelegateAndDataSource(self, delegate: self)
         
-        self.view.setFloraController(summflowerControl)
+        self.view.setSummflowerViewController(summflowerControl)
         self.view.addSubview(summflowerControl)
     }
     

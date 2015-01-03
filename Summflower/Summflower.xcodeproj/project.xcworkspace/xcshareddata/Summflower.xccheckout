@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2D5DFBEC-82BB-41AD-BEC9-06B5EF5775E3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Summflower</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>470D287093B9B7197267891B250EF22850A5F64A</key>
+		<string>https://github.com/iSame7/Summflower.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Summflower/Summflower.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>470D287093B9B7197267891B250EF22850A5F64A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/iSame7/Summflower.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>470D287093B9B7197267891B250EF22850A5F64A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>470D287093B9B7197267891B250EF22850A5F64A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Summflower</string>
+		</dict>
+	</array>
+</dict>
+</plist>

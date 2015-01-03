@@ -24,7 +24,7 @@ let AnimationGrowDuration:NSTimeInterval = 0.3
 let AnimationSegmentMaxScale:CGFloat = 1000 //Scale of the item at its largest (relative to on kAnimationPetalMinScale)
 let AnimationSegmentDelay:CGFloat = 0.1 //The amount of time between animating each segment
 
-let AnimationFanOutDegrees:Double = 360.0//Amount  for the control to fan out 360 = fully fanned out, 180 = half fanned out
+let AnimationFanOutDegrees:Double = 360.0 //Amount  for the control to fan out 360 = fully fanned out, 180 = half fanned out
 let AnimationRotateDuration:NSTimeInterval = 0.3
 
 
@@ -44,7 +44,7 @@ Extensions add new functionality to an existing class, structure, or enumeration
 */
 extension UIView{
     
-    func setFloraController(summflowerObj:SummflowerViewController){
+    func setSummflowerViewController(summflowerObj:SummflowerViewController){
         summflowerObj.monitorView = self
         
         //Register for touch events on long press
@@ -58,7 +58,7 @@ extension UIView{
     }
 }
 
-// Creates a flora view with the correct dimensions and autoresizing, setting the datasource and delegate to self.
+// Creates a Summflower view with the correct dimensions and autoresizing, setting the datasource and delegate to self.
 @objc class SummflowerViewController: UIView, SummflowerViewDataSource, SummflowerViewDelegate {
     
     

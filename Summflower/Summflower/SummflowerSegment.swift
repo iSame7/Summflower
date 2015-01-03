@@ -7,7 +7,7 @@
 //
 
 /*
-//FloraSegment act as a UITableviewCell for this control. It follows the same configuration as a tableview delegate
+//SummflowerSegment act as a UITableviewCell for this control. It follows the same configuration as a tableview delegate
 */
 
 import UIKit
