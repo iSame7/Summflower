@@ -3,8 +3,8 @@ Panoramic
 
 **Swift implementation of the photo tilt gesture/UX found in Facebook's Paper app.**
 
-<img src="screenshot2.png" alt="Screenshot" width="50%"/>
-<img src="screenshot1.png" alt="Screenshot" width="50%"/>
+<img src="screenshot2.png" alt="Screenshot" width="70%"/>
+<img src="screenshot1.png" alt="Screenshot" width="70%"/>
 <img src="screenshot3.png" alt="Screenshot" width="50%"/>
 
 
