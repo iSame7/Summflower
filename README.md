@@ -1,7 +1,7 @@
 Summflower
 =========
 
-**Summflower is a swift implementation to the sexiest sharing icon based on [Summly] (http://www.summly.com/index.html).**
+**Summflower is a swift implementation to the sexiest sharing icon based on [Summly] app (http://www.summly.com/index.html).**
 
 <img src="screenshot.png" alt="Screenshot"/>
 
